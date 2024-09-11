@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
+  const name = "Vivek";
   return (
     <div>
       <h1>
@@ -8,7 +9,7 @@ const App = () => {
       </h1>
       <img src="/assets/images/Logo.jpeg" alt="Logo" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
