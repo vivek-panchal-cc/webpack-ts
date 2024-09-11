@@ -38,7 +38,7 @@ export default {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off", // Not needed for React 17+
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "react/prop-types": "off", // If not using PropTypes
     "prettier/prettier": "warn", // Optional: for Prettier formatting warnings
   },

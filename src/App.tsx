@@ -1,7 +1,6 @@
 import React from "react";
 
 const App = () => {
-  const name = "Vivek";
   return (
     <div>
       <h1>
