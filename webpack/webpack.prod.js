@@ -1,4 +1,5 @@
 import webpack from "webpack";
+import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 
 export default {
   mode: "production",
@@ -7,5 +8,6 @@ export default {
     new webpack.DefinePlugin({
       "process.env.name": JSON.stringify("Panchal"),
     }),
+    // new BundleAnalyzerPlugin()
   ],
 };
